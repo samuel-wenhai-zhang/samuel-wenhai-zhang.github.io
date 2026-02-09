@@ -20,20 +20,8 @@ consistent with my resume and other professional documents.
 - `index.html` — Main site content (single-page layout)
 - `styles.css` — Minimal, readable styling
 
-## Deployment (GitHub Pages)
-
-1. Create a public repository named:
-   `YOUR_USERNAME.github.io`
-2. Upload all files to the repository root.
-3. Go to **Settings → Pages**
-4. Under *Build and deployment*:
-   - Source: Deploy from a branch
-   - Branch: `main`
-   - Folder: `/ (root)`
-5. Save changes.
-
 The site will be available at:
-`https://YOUR_USERNAME.github.io`
+`https://samuel-wenhai-zhang.github.io`
 
 ## Customization
 
