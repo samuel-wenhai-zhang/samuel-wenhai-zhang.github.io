@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Samuel Zhang — Computer Science student at Carnegie Mellon University. Research and software projects in algorithms, systems, and machine learning." />
+  <title>Samuel Zhang</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:," />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Home">Samuel Zhang</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section id="top" class="hero">
+      <div>
+        <h1>Samuel Zhang</h1>
+        <p class="subtitle">B.S. Computer Science @ Carnegie Mellon • Algorithms • Systems • ML</p>
+        <p class="lede">
+          I build and analyze software for challenging technical problems—spanning multi-agent planning,
+          real-time AI systems, and simulation-based research. I care about correctness, performance,
+          and clear communication.
+        </p>
+        <div class="cta-row">
+          <a class="button" href="#projects">View projects</a>
+          <a class="button secondary" href="#resume">Resume</a>
+        </div>
+        <p class="meta">
+          Pittsburgh, PA (US Citizen) • <a href="mailto:samuelz2@andrew.cmu.edu">samuelz2@andrew.cmu.edu</a> •
+          <a href="https://linkedin.com/in/samuel-wenhai-zhang" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="projects" class="section">
+      <h2>Selected Projects</h2>
+      <p class="section-note">A few representative projects. (Keep this list short and strong.)</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Grouped LaCAM (Multi-Agent Pathfinding)</h3>
+          <p>
+            Extended a state-of-the-art MAPF approach to coordinate dynamically-coupled groups of agents.
+            Built instrumentation to validate group detection, priority inheritance, conflict resolution,
+            and backtracking behavior.
+          </p>
+          <ul class="tags">
+            <li>C++</li><li>Algorithms</li><li>Planning</li><li>Performance analysis</li>
+          </ul>
+          <p class="small">
+            <span class="pill">Impact</span> Reported 30–40% performance improvement over baseline in dense benchmarks.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Real-Time Speech Coaching (ScottyLabs)</h3>
+          <p>
+            Collaborated on a real-time speech coaching system that gives live feedback on pacing and clarity.
+            Integrated streaming speech-to-text and trained a lightweight NLP pipeline on collected speech data.
+          </p>
+          <ul class="tags">
+            <li>React Native</li><li>JavaScript</li><li>PyTorch</li><li>Whisper</li><li>NLP</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Connected Autonomous Vehicle Simulation</h3>
+          <p>
+            Built V2V simulation environments and implemented IoT messaging for real-time telemetry exchange.
+            Deployed and debugged Linux VM environments and resolved networking/framework issues.
+          </p>
+          <ul class="tags">
+            <li>Python</li><li>OMNeT++</li><li>SUMO</li><li>MQTT</li><li>Docker</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="item">
+          <div class="item-head">
+            <h3>Research Assistant — Search-Based Planning Lab, Carnegie Mellon</h3>
+            <span class="when">Jun 2025 – Dec 2025</span>
+          </div>
+          <p>
+            Worked on multi-agent pathfinding research; introduced Grouped LaCAM and built tooling for performance analysis
+            and debugging to ensure algorithmic correctness under complex interactions.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="item-head">
+            <h3>Project Developer — ScottyLabs, Carnegie Mellon</h3>
+            <span class="when">Aug 2024 – Dec 2024</span>
+          </div>
+          <p>
+            Developed and deployed a real-time speech-coaching AI system; integrated streaming transcription and trained
+            an NLP pipeline. Built a full-stack mobile app with cloud infrastructure.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="item-head">
+            <h3>Research Assistant — Texas A&amp;M University</h3>
+            <span class="when">Jun 2024 – Aug 2024</span>
+          </div>
+          <p>
+            Built connected autonomous vehicle simulations and implemented MQTT-based telemetry exchange for V2V studies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3>Languages</h3>
+          <p class="mono">C++, C, Python, Java, JavaScript, Standard ML</p>
+        </div>
+        <div class="card">
+          <h3>Tools &amp; Frameworks</h3>
+          <p class="mono">Linux, Docker, Git, AWS (EC2), PyTorch, Node.js, React, React Native, Supabase</p>
+        </div>
+      </div>
+      <p class="section-note">
+        Tip: keep this section consistent with your resume; avoid adding tools you can’t discuss confidently.
+      </p>
+    </section>
+
+    <section id="resume" class="section">
+      <h2>Resume</h2>
+      <p>
+        <a class="button" href="Samuel_Zhang_Resume.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+        <a class="button secondary" href="Samuel_Zhang_Resume.pdf" download>Download</a>
+      </p>
+      <div class="embed">
+        <object data="Samuel_Zhang_Resume.pdf" type="application/pdf" width="100%" height="720">
+          <p>Your browser can’t display PDFs inline. Use the buttons above to open or download.</p>
+        </object>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>
+          Email: <a href="mailto:samuelz2@andrew.cmu.edu">samuelz2@andrew.cmu.edu</a><br/>
+          LinkedIn: <a href="https://linkedin.com/in/samuel-wenhai-zhang" target="_blank" rel="noopener noreferrer">linkedin.com/in/samuel-wenhai-zhang</a>
+        </p>
+        <p class="small">
+          Optional: add GitHub once it represents you well (a few polished repos is enough).
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Samuel Zhang</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
