@@ -1,18 +1,24 @@
-# Personal Website (GitHub Pages)
+# Personal Website — Samuel Zhang
 
-This is a minimal, professional personal website.
+This repository hosts my personal website, built using GitHub Pages. The site serves as a public-facing professional profile that complements my resume and presents my academic, research, and technical experience for a broad audience.
 
-## Quick start (GitHub Pages)
-1. Create a repo named **YOUR_USERNAME.github.io**
-2. Upload these files to the repo root:
-   - index.html
-   - styles.css
-   - Samuel_Zhang_Resume.pdf
-3. In the repo: Settings → Pages → Build and deployment:
-   - Source: Deploy from a branch
-   - Branch: main / (root)
-4. Your site will be live at: https://YOUR_USERNAME.github.io
+## Purpose and Audience
 
-## Customize
-- Edit `index.html` content (projects, experience, skills).
-- Edit `styles.css` for styling.
+The website is intended for:
+- Recruiters and hiring committees
+- Faculty advisors
+- Potential collaborators
+
+Unlike a resume or cover letter, which are tailored to specific positions, this site provides a general overview of my background, interests, and selected work in computer science. The content is intentionally concise, skimmable, and aligned with professional conventions.
+
+## Contents
+
+- `index.html` — Main site content (single-page layout)
+- `styles.css` — Minimal, readable styling
+- `Samuel_Zhang_Resume.pdf` — Current resume linked and embedded on the site
+
+## Deployment (GitHub Pages)
+
+To deploy this site using GitHub Pages:
+
+1. Create a public repository named:
